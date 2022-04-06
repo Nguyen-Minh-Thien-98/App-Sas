@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.HoTro.HoibaoveActivity"
+    android:background="@color/cam"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/holo_orange_light"
+        android:orientation="horizontal"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:layout_marginBottom="50dp">
+
+
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:paddingBottom="18dp"
+            android:layout_height="match_parent"
+            android:text="Tổng đài Quốc gia Bảo vệ Trẻ em"
+            android:textSize="23sp"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnGoidienthoai"
+            android:layout_width="50mm"
+            android:layout_height="19mm"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/mybutton"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:text="Gọi điện thoại"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnDiachi"
+            android:layout_width="50mm"
+            android:layout_height="19mm"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/mybutton"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:text="Địa chỉ"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/btnFacebook"
+            android:layout_width="50mm"
+            android:layout_height="19mm"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/mybutton"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:text="Trang FaceBook"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
