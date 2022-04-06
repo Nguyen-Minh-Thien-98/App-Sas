@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.educationapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_laucher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_laucher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme">
+        <activity android:name=".Fragment.Thongtin.ThongtinActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Fragment.HoTro.HoibaoveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.HoTro.TongdaiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.HoTro.HotroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_13.Activity9_13_7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_1.Activity9_1_3_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_1.Activity9_1_3_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_1.Activity9_1_3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_6.Activity9_6_2_3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_6.Activity9_6_2_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_6.Activity9_6_2_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_13.Activity9_13_6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_13.Activity9_13_5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_13.Activity9_13_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_13.Activity9_13_3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_13.Activity9_13_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_13.Activity9_13_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_13.Activity9_13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_12.Activity9_12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_11.Activity9_11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_10.Activity9_10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_9.Activity9_9_3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_9.Activity9_9_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_9.Activity9_9_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_9.Activity9_9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_8.Activity9_8_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_8.Activity9_8_1_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_8.Activity9_8_1_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_8.Activity9_8_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_8.Activity9_8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_7.Activity9_7_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_7.Activity9_7_3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_7.Activity9_7_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_7.Activity9_7_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_7.Activity9_7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_5.Activity9_5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_4.Activity9_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_3.Activity9_3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_2.Activity9_2_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_2.Activity9_2_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_2.Activity9_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_6.Activity9_6_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_6.Activity9_6_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_6.Activity9_6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_1.Activity9_1_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_1.Activity9_1_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Activity9_1.Activity9_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.ThuVienActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fragment.ThuVien.Lop.Lop9.Lop9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LuyentapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game.ActivityCottruyen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game.ActivityQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game.HomeQuizActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WellcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service android:name=".Service.BackgroundsSoundCottruyen" />
+        <service android:name=".Service.BackgroundSoundThongtin" />
+        <service android:name=".Service.BackgroundSoundService" />
+        <service android:name=".Service.BackgroundSoundMenu" />
+        <service android:name=".Service.BackgroudSoundWellcome" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.ChaophanethenService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.ChaoembeService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.ChaobenhquaquanheService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.ChaochuyenayayService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.ChaotranhthaiService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.thudamService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.kynangService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.lgbtService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.chuyentramnamService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.machnhovecontimService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.cocaubecothemacbenhkhongService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.chuyendaythiService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.tranhthaiService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.phimxxxService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.chuyenayayService" />
+        <service android:name=".Fragment.ThuVien.Lop.Lop9.Lop9Service.embedentudauService" />
+    </application>
+
+</manifest>

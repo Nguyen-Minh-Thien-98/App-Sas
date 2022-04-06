@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ThuVien.Lop.Lop9.Activity9_2.Activity9_2_2"
+    android:background="@drawable/bg">
+
+    <Button
+        android:id="@+id/btnVideothutinh"
+        android:layout_width="50mm"
+        android:layout_height="19mm"
+        android:layout_centerInParent="true"
+        android:background="@drawable/mybutton"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:text="Xem Video"
+        android:textAllCaps="false"
+        android:layout_marginBottom="20dp"/>
+
+
+</RelativeLayout>

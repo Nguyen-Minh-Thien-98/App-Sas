@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game.ActivityQuiz"
+    android:background="@drawable/backgroundquiz"
+    android:id="@+id/rltquizactivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:fillViewport="true">
+            <LinearLayout
+                android:layout_marginTop="-25dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:paddingLeft="15dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Level"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@android:color/white"/>
+
+                    <TextView
+                        android:id="@+id/tvlevel"
+                        android:layout_marginTop="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="level"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"
+                        android:textColor="@android:color/holo_orange_light"/>
+
+                    <LinearLayout
+                        android:id="@+id/linearscore"
+                        android:gravity="left"
+                        android:layout_alignParentTop="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingLeft="30dp"
+                        android:orientation="horizontal">
+
+
+
+
+                        <TextView
+                            android:layout_marginTop="50dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tiến độ: "
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_marginRight="5dp"
+                            android:textColor="@android:color/holo_blue_light"/>
+
+                        <TextView
+                            android:id="@+id/tvdiem"
+                            android:layout_marginTop="50dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Score "
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_marginRight="20dp"
+                            android:textColor="@android:color/holo_blue_light"/>
+
+                        <TextView
+                            android:id="@+id/tvScore"
+                            android:layout_marginTop="50dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" / 4"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_marginRight="20dp"
+                            android:textColor="@android:color/holo_blue_light"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearquestion"
+                    android:layout_below="@+id/linearscore"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/tvQuestion"
+                        android:layout_width="match_parent"
+                        android:paddingTop="20dp"
+                        android:layout_height="match_parent"
+                        android:text="Question ??"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"
+                        android:textColor="@android:color/white"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linearquestion"
+                    android:orientation="vertical"
+                    android:layout_gravity="bottom">
+                    <RadioGroup
+                        android:id="@+id/rdganswer"
+                        android:padding="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/answerA"
+                            android:textColor="@android:color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="AnswerA"
+                            android:textStyle="bold"
+                            android:textSize="18dp"
+                            android:layout_marginBottom="20dp"/>
+
+                        <RadioButton
+                            android:id="@+id/answerB"
+                            android:textColor="@android:color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="AnswerB"
+                            android:textStyle="bold"
+                            android:textSize="18dp"
+                            android:layout_marginBottom="20dp"/>
+
+                        <RadioButton
+                            android:id="@+id/answerC"
+                            android:textColor="@android:color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="AnswerC"
+                            android:textStyle="bold"
+                            android:textSize="18dp"
+                            android:layout_marginBottom="20dp"/>
+
+                        <RadioButton
+                            android:id="@+id/answerD"
+                            android:textColor="@android:color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="AnswerD"
+                            android:textStyle="bold"
+                            android:textSize="18dp"
+                            android:layout_marginBottom="20dp"/>
+
+
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:background="@android:color/holo_blue_light"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:text="Kiểm Tra"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:textColor="@android:color/white"
+            android:layout_height="80dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
